@@ -1,0 +1,15 @@
+transformers
+datasets
+torch
+tensorflow==2.20.0
+opencv-python
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+tqdm
+pyqt5
+streamlit
+plotly
+flask
