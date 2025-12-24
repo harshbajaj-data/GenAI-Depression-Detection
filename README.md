@@ -43,13 +43,24 @@ To design and implement a **multimodal AI system** capable of:
 
 ## 🖥️ System Overview
 
-The system follows a layered architecture:
+The system follows a **multi-layered, multimodal architecture** designed to capture, analyze, and respond to human emotional states in real time:
 
-- **Input Layer:** User text input
-- **Emotion Detection Layer:** NLP-based emotion classification
-- **Crisis Detection Layer:** Keyword and severity-based intervention logic
-- **Response Layer:** Generative AI-based empathetic responses
-- **Backend Layer:** API processing and logging
+- **Input Layer:**  
+  Multi-modal data capture using **real-time webcam feed (facial expressions)** and **user text input**.
+
+- **Emotion Detection Layer:**  
+  - Computer Vision–based facial emotion recognition using a CNN model  
+  - NLP-based emotion classification from textual input
+
+- **Crisis Detection Layer:**  
+  Rule-based logic combined with model confidence scores to identify **high-risk emotional states**.
+
+- **Response Generation Layer:**  
+  Generative AI–based **empathetic and context-aware response generation**.
+
+- **Backend Layer:**  
+  API-driven processing, inference orchestration, and logging.
+
 
 ---
 
@@ -104,13 +115,30 @@ The system follows a layered architecture:
 
 ## ⚙️ Technologies Used
 
-- Python
-- Machine Learning
-- Natural Language Processing (NLP)
-- Generative AI (LLM-based responses)
-- Flask / Backend API
-- HTML, CSS (Frontend UI)
-- Rule-based Crisis Detection Logic
+- **Programming Language:**  
+  Python
+
+- **Computer Vision:**  
+  OpenCV, TensorFlow  
+  CNN-based facial emotion recognition trained on the **FER2013 dataset**
+
+- **Natural Language Processing (NLP):**  
+  Transformer-based text emotion analysis using the **GoEmotions dataset**
+
+- **Generative AI:**  
+  BlenderBot / LLM-based models for **empathetic and context-aware response generation**
+
+- **Backend:**  
+  Flask (Python), Werkzeug  
+  REST-based API handling and inference orchestration
+
+- **Frontend:**  
+  JavaScript, HTML5, CSS3  
+  Real-time visualization using **main.js**
+
+- **Logic Layer:**  
+  Rule-based crisis detection and severity classification
+
 
 ---
 
