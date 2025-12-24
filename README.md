@@ -61,8 +61,17 @@ The system follows a **multi-layered, multimodal architecture** designed to capt
 - **Backend Layer:**  
   API-driven processing, inference orchestration, and logging.
 
+---
+
+
+## System Architecture
+
+<p align="center">
+  <img src="Docs/Architecture.png" width="800">
+</p>
 
 ---
+
 
 ## Dashboard Overview (Calm UI State)
 
