@@ -151,7 +151,8 @@ This system is **not a medical or diagnostic tool**.
 ## 👤 Ownership & Academic Details
 
 - **Project Title:** GenAI Approach for Detection of Depression  
-- **Student Name:** Harsh Bajaj  
+- **Student Name:** Harsh Bajaj
+- **Guide Name:** Dr. Sneha Bohra  
 - **Degree:** B.Tech – Computer Science & Engineering  
 - **Institution:** G H Raisoni University, Amravati  
 - **Academic Year:** 2025–26  
